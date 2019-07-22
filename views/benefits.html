@@ -1,0 +1,29 @@
+<% include partials/header.ejs %>
+<% include partials/nav.ejs %>
+  
+<main>
+  <div id="main_text">
+    <%= product %>  has made leaps and bound over the last ten years. Now the possibilities are endless.
+    You can install <%= product %>  in one or two areas or convert your whole house. 
+    Look at some of the benefits that you can receive with <%= product %>. 
+    
+    <ul id=description>
+      <li><span class=bold_text>It strengthens your <%= fakeDataArray[0] %>.</span> Now you can check in on your <%= product %> when you’re away and get notifications. You can also unlock the <%= product %> if someone forgot their <%= fakeDataArray[1] %> or a relative needs to get your <%= product %> while you’re at work.</li>
+      <li><span class=bold_text>You can control your <%= product %> in a tap.</span> You can shut off your <%= product %> while on vacation or have you home at the perfect <%= fakeDataArray[2] %> when you get home with the tap of your finger.</li>
+      <li><span class=bold_text>You save money.</span> By having a <%= product %> you can reduce cost and save money by reducing the amount of time you run your <%= fakeDataArray[3] %>, adjusting your <%= fakeDataArray[4] %> when you are not home, and turn off <%= fakeDataArray[5] %> that you accidently left on.</li>
+      <li><span class=bold_text>You get peace of mind, even when you’re away.</span> Know your <%= product %> will report to you when something is wrong whether at home or on vacation it will give you the peace of mind that you are looking for.</li>
+ 
+    </ul>
+  </div>
+  <div>     
+    <figure> 
+      <img src=<%= image %> alt="Home Automation Benefits Picture"/>
+      <figcaption>Home Automation Benefits</figcaption>
+    </figure>
+    <p id=quote>
+      Pictures courtesy of 
+      <a id="ref_link" href="http://lorempixel.com" > lorempixel</a>
+    </p>
+  </div>
+</main>
+<% include partials/footer.ejs %>

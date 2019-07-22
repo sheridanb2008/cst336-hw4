@@ -1,0 +1,33 @@
+<% include partials/header.ejs %>
+<% include partials/nav.ejs %>
+<main>
+  <div id="main_text">
+    The market for smart <%= product %> is expanding every year. 
+    Some providers have reach out to others to make their products compatible and other function as a stand-alone system. 
+    When searching for a <%= product %> provider here are a few tips to keep in mind.
+    <ul id=description>        
+      <li>What Do You Want in <%= product %>?</li>
+      <li>Will <%= product %> Technology Be Difficult to Understand?</li>
+      <li>Will <%= product %> Be More Costly to Use?</li>
+      <li>Is <%= product %> Compatible With an Existing <%= product %>?</li>
+      <li>Can You Access and Monitor your <%= product %> Features Remotely?</li>
+      <li>Will Current <%= product %> Systems Be Compatible With Future <%= product %>s?</li>
+    </ul>
+    <p id=quoteEH>
+      Information courtesy of 
+      <a id="ref_link" href="https://www.electronichouse.com/smart-home/10-questions-to-ask-when-considering-a-home-automation-system/">Electronic House</a>
+    </p> 
+  </div>   
+  <div>
+    <figure> 
+      <img src=<%= image %> alt="Home Automation Providers Picture"/>
+      <figcaption>Home Automation Providers</figcaption>
+    </figure>
+    <p id=quote>
+      Picture courtesy of 
+      <a id="ref_link" href="http://lorempixel.com" > lorempixel</a>
+    </p>
+  </div>  
+</main>  
+    
+<% include partials/footer.ejs %>

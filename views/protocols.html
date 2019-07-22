@@ -1,0 +1,28 @@
+<% include partials/header.ejs %>
+<% include partials/nav.ejs %>
+<main>
+  <div>
+    <figure> 
+      <img src=<%= image %> alt="Home Automation Protocols Picture"/>
+      <figcaption>Home Automation Protocols</figcaption>
+    </figure>
+    <p id=quote>
+      Pictures courtesy of 
+      <a id="ref_link" href="http://lorempixel.com" > lorempixel</a>
+    </p>
+  </div>  
+  <div id="main_text">
+    When looking for <%= product %> for your home it is important that all of them are able to work together.  This is where <%= navOption %> come in. 
+    Before you buy any products or you have existing products take a look at what <%= navOption %> the device is using. 
+    This help to narrow your search and be able to find other compatible hardware.
+    <br />
+    <p id=list_title><strong><mark>The top <%= navOption %> currently are:</mark></strong></p>
+    <ul id=description>        
+      <li><%= fakeDataArray[0] %></li>
+      <li><%= fakeDataArray[1] %></li>
+      <li><%= fakeDataArray[2] %></li>
+      <li><%= fakeDataArray[3] %></li>
+    </ul>
+  </div>   
+</main>
+<% include partials/footer.ejs %>
